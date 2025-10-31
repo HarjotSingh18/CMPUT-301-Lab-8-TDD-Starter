@@ -18,6 +18,10 @@ public class CustomList {
         return cities.contains(city);
     }
 
+    public boolean deleteCity(City city) {
+        return cities.remove(city);
+    }
+
 
 
 
